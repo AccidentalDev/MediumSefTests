@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brerlappin.mediumseftests">
+
+    <uses-permission android:name="com.amazon.device.speech.USE_VOICE_ASSISTANT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/huesos"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:launchMode="singleTask">
+        <activity android:name=".SefTests2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
